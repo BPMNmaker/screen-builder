@@ -375,6 +375,7 @@ export default {
           break;
         case 'collection':
           this.showRenderAs = false;
+          this.renderAs = 'dropdown';
           this.jsonData = '';
           this.dataName = '';
           this.selectedDataSource = '';
@@ -401,14 +402,6 @@ export default {
       if (this.endPointList.length > 0) {
         this.selectedEndPoint = this.endPointList[0].value;
       }
-    },
-    renderAs(val) {
-      if (this.dataSource === 'provideData') {
-        if (val !== 'dropdown') {
-          // add aria label field when renderAs is not dropdown
-          this.optionsListExtra = this.optionsList.map(option => ({...option, [this.ariaLabelField]: ''}));
-        }
-       }
     }
   },
   computed: {
