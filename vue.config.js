@@ -21,10 +21,10 @@ module.exports = {
       modules: [path.resolve(__dirname, "node_modules"), "node_modules"],
       symlinks: false,
       alias: {
-        "@processmaker/vue-form-elements$":
+        "@hmdshariati/vue-form-elements$":
           process.env.NODE_ENV === "development"
-            ? "@processmaker/vue-form-elements/src/components"
-            : "@processmaker/vue-form-elements"
+            ? "@hmdshariati/vue-form-elements/src/components"
+            : "@hmdshariati/vue-form-elements"
       }
     },
     externals:

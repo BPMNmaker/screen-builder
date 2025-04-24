@@ -58,7 +58,7 @@ export default defineConfig({
         "moment",
         "moment-timezone",
         "lodash",
-        "@processmaker/vue-form-elements",
+        "@hmdshariati/vue-form-elements",
         "@processmaker/vue-multiselect",
         "vue-monaco",
         "monaco-editor",
@@ -75,7 +75,7 @@ export default defineConfig({
           moment: "moment",
           "moment-timezone": "moment-timezone",
           lodash: "lodash",
-          "@processmaker/vue-form-elements": "VueFormElements",
+          "@hmdshariati/vue-form-elements": "VueFormElements",
           "@processmaker/vue-multiselect": "VueMultiselect",
           SharedComponents: "SharedComponents"
         }

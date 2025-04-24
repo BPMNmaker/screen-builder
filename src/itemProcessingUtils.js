@@ -33,6 +33,10 @@ export function getDefaultValueForItem(item) {
   if (item.component === 'FormDatePicker') {
     defaultValue = generateNewDate(item.config.dataFormat);
   }
+  
+  if (item.component === 'PersianFormDatePicker') {
+    defaultValue = generateNewDate(item.config.dataFormat);
+  }
 
   if (item.component === 'FormButton' && item.config.event === 'script') {
     defaultValue = 0;

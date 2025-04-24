@@ -56,9 +56,10 @@ import {
   FormTextArea,
   FormCheckbox,
   FormDatePicker,
+  PersianFormDatePicker,
   FormHtmlEditor,
   FormHtmlViewer,
-} from '@processmaker/vue-form-elements';
+} from '@hmdshariati/vue-form-elements';
 
 const defaultColumnWidth = 1;
 
@@ -73,6 +74,7 @@ export default {
     FormTextArea,
     FormCheckbox,
     FormDatePicker,
+    PersianFormDatePicker,
     FormHtmlEditor,
     FormHtmlViewer,
     ...renderer,

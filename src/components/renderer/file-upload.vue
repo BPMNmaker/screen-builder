@@ -134,7 +134,7 @@
 import { createUniqIdsMixin } from 'vue-uniq-ids';
 import uploader from 'vue-simple-uploader';
 import _ from 'lodash';
-import { RequiredAsterisk } from '@processmaker/vue-form-elements';
+import { RequiredAsterisk } from '@hmdshariati/vue-form-elements';
 
 // Create the mixin
 const uniqIdsMixin = createUniqIdsMixin();

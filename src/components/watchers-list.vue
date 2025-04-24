@@ -33,7 +33,7 @@
 
 <script>
 import BasicSearch from './basic-search';
-import { FormInput, FormTextArea } from '@processmaker/vue-form-elements';
+import { FormInput, FormTextArea } from '@hmdshariati/vue-form-elements';
 import Sortable from './sortable/Sortable.vue';
 
 export default {

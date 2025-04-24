@@ -177,7 +177,7 @@
 </template>
 
 <script>
-import { FormInput, FormTextArea } from "@processmaker/vue-form-elements";
+import { FormInput, FormTextArea } from "@hmdshariati/vue-form-elements";
 import MonacoEditor from "vue-monaco";
 import Validator from "@chantouchsek/validatorjs";
 import FocusErrors from "../mixins/focusErrors";

@@ -35,7 +35,7 @@
 
 <script>
 import _ from "lodash";
-import { FormTextArea } from "@processmaker/vue-form-elements";
+import { FormTextArea } from "@hmdshariati/vue-form-elements";
 
 export default {
   components: { FormTextArea },

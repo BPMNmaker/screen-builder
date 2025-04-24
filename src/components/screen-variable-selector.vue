@@ -23,7 +23,7 @@
 
 import {
   FormMultiSelect,
-} from '@processmaker/vue-form-elements';
+} from '@hmdshariati/vue-form-elements';
 
 export default {
   props: ["name", "label", "value", "helper", "validation", "dataCy"],

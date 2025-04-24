@@ -4,6 +4,7 @@
 export const nodeControls = {
   checkbox: "[data-cy=controls-FormCheckbox]",
   datePicker: "[data-cy=controls-FormDatePicker]",
+  persianFormDatePicker: "[data-cy=controls-PersianFormDatePicker]",
   fileDownload: "[data-cy=controls-FileDownload]",
   fileUpload: "[data-cy=controls-FileUpload]",
   formImage: "[data-cy=controls-FormImage]",

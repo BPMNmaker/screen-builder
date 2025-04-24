@@ -1,5 +1,5 @@
 // Import our components
-import VueFormElements from "@processmaker/vue-form-elements";
+import VueFormElements from "@hmdshariati/vue-form-elements";
 import VueFormBuilder from "./vue-form-builder.vue";
 import VueFormRenderer from "./vue-form-renderer.vue";
 import * as renderer from "./renderer";
@@ -17,7 +17,7 @@ import AddLoopRow from "./renderer/add-loop-row.vue";
 import FormRecordList from "./renderer/form-record-list.vue";
 import FormImage from "./renderer/form-image.vue";
 import FormAvatar from "./renderer/form-avatar.vue";
-import "@processmaker/vue-form-elements/dist/vue-form-elements.css";
+import "@hmdshariati/vue-form-elements/dist/vue-form-elements.css";
 import FormButton from "./renderer/form-button.vue";
 import FileUpload from "./renderer/file-upload.vue";
 import FileDownload from "./renderer/file-download.vue";

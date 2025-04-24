@@ -45,7 +45,7 @@
 </template>
 
 <script>
-import { FormInput, FormTextArea } from '@processmaker/vue-form-elements';
+import { FormInput, FormTextArea } from '@hmdshariati/vue-form-elements';
 import MonacoEditor from 'vue-monaco';
 import WatchersList from './watchers-list';
 import WatchersForm from './watchers-form';

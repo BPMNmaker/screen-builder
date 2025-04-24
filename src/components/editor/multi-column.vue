@@ -189,12 +189,13 @@ import _ from "lodash";
 import {
   FormCheckbox,
   FormDatePicker,
+  PersianFormDatePicker,
   FormHtmlEditor,
   FormHtmlViewer,
   FormInput,
   FormSelectList,
   FormTextArea
-} from "@processmaker/vue-form-elements";
+} from "@hmdshariati/vue-form-elements";
 import { HasColorProperty } from "@/mixins";
 import { Clipboard } from "@/mixins";
 import * as renderer from "@/components/renderer";
@@ -210,6 +211,7 @@ export default {
     FormCheckbox,
     FormTextArea,
     FormDatePicker,
+    PersianFormDatePicker,
     FormHtmlEditor,
     FormHtmlViewer,
     ClipboardButton,

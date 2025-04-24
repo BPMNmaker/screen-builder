@@ -20,10 +20,11 @@ import {
   FormSelectList,
   FormCheckbox,
   FormDatePicker,
+  PersianFormDatePicker,
   FormHtmlEditor,
   BFormComponent,
   BWrapperComponent,
-} from '@processmaker/vue-form-elements';
+} from '@hmdshariati/vue-form-elements';
 import { dataSourceValues } from '@/components/inspector/data-source-types';
 import LinkButton from "./components/renderer/link-button.vue";
 
@@ -305,6 +306,60 @@ export default [
       config: {
         icon: 'far fa-calendar-alt',
         label: 'New Date Picker',
+        type: 'datetime',
+        name: '',
+        placeholder: '',
+        minDate: '',
+        maxDate: '',
+      },
+      inspector: [
+        {
+          type: 'FormInput',
+          field: 'minDate',
+          config: {
+            name: 'Minimum Date',
+            label: 'Minimum Date',
+            validation: 'date_or_mustache',
+          },
+        },
+        {
+          type: 'FormInput',
+          field: 'maxDate',
+          config: {
+            name: 'Maximum Date',
+            label: 'Maximum Date',
+            validation: 'after_min_date|date_or_mustache',
+          },
+        },
+        keyNameProperty,
+        labelProperty,
+        DataTypeDateTimeProperty,
+        validationRulesProperty,
+        placeholderProperty,
+        helperTextProperty,
+        colorProperty,
+        bgcolorProperty,
+        disabledProperty,
+        defaultValueProperty,
+      ],
+    },
+  },
+  {
+    editorComponent: PersianFormDatePicker,
+    editorBinding: 'PersianFormDatePicker',
+    rendererComponent: PersianFormDatePicker,
+    rendererBinding: 'PersianFormDatePicker',
+    control: {
+      popoverContent: "Collect a persian date or date/time",
+      order: 6.0,
+      group: 'Input Fields',
+      label: 'Persian Date Picker',
+      component: 'PersianFormDatePicker',
+      'editor-component': 'PersianFormDatePicker',
+      'editor-control': 'PersianFormDatePicker',
+      config: {
+        icon: 'far fa-calendar-alt',
+        label: 'New Persian Date Picker',
         type: 'datetime',
         name: '',
         placeholder: '',

@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import { FormCheckbox } from "@processmaker/vue-form-elements";
+import { FormCheckbox } from "@hmdshariati/vue-form-elements";
 
 export default {
   components: { FormCheckbox },

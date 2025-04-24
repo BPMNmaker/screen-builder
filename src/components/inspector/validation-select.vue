@@ -184,7 +184,7 @@
 </template>
 
 <script>
-import { FormInput, FormCheckbox } from "@processmaker/vue-form-elements";
+import { FormInput, FormCheckbox } from "@hmdshariati/vue-form-elements";
 import _ from "lodash";
 import InputVariable from "./input-variable.vue";
 

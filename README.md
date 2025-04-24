@@ -1,6 +1,6 @@
 # ProcessMaker Screen Builder
 
-`@processmaker/screen-builder` is a VueJS powered Screen Builder that produces compatible JSON for our vue-form-renderer.
+`@hmdshariati/screen-builder` is a VueJS powered Screen Builder that produces compatible JSON for our vue-form-renderer.
 
 - [ProcessMaker Screen Builder](#processmaker-screen-builder)
   - [Project setup](#project-setup)

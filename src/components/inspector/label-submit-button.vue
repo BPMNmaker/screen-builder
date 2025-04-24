@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import { FormInput } from '@processmaker/vue-form-elements';
+import { FormInput } from '@hmdshariati/vue-form-elements';
 
 export default {
   components: {

@@ -364,7 +364,7 @@ import {
   FormTextArea,
   FormMultiSelect,
   FormCheckbox
-} from "@processmaker/vue-form-elements";
+} from "@hmdshariati/vue-form-elements";
 import MonacoEditor from "vue-monaco";
 import _ from "lodash";
 import DataMapping from "./inspector/data-mapping";

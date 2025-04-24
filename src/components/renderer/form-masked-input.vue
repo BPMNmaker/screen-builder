@@ -82,7 +82,7 @@ import {
   getUserDateFormat,
   getUserDateTimeFormat,
   ValidationMixin
-} from "@processmaker/vue-form-elements";
+} from "@hmdshariati/vue-form-elements";
 import Inputmasked from "./form-input-masked.vue";
 import { validate as uuidValidate } from 'uuid';
 

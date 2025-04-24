@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import { formatIfDate as dateUtilsFormatIfDate } from "@processmaker/vue-form-elements";
+import { formatIfDate as dateUtilsFormatIfDate } from "@hmdshariati/vue-form-elements";
 import mustacheEvaluation from "../../mixins/mustacheEvaluation";
 
 export default {

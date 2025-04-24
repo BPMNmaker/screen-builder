@@ -36,7 +36,7 @@
 import {
   RequiredAsterisk,
   ValidationMixin
-} from "@processmaker/vue-form-elements";
+} from "@hmdshariati/vue-form-elements";
 
 export default {
   components: {
